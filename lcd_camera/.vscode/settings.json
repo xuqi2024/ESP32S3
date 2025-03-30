@@ -1,0 +1,12 @@
+{
+    "idf.customExtraVars": {
+        "IDF_TARGET": "esp32s3"
+    },
+    "idf.openOcdConfigs": [
+        "board/esp32s3-bridge.cfg"
+    ],
+    "idf.espIdfPath": "/Users/xuqi/esp/v5.1.6/esp-idf",
+    "idf.pythonInstallPath": "/opt/homebrew/bin/python",
+    "idf.port": "/dev/tty.usbmodem11301",
+    "idf.toolsPath": "/Users/xuqi/.espressif"
+}

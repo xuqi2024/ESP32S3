@@ -1,0 +1,55 @@
+-- Existing sdkconfig '/Users/xuqi/Proj/ESP32S3/hello_world/sdkconfig' renamed to '/Users/xuqi/Proj/ESP32S3/hello_world/sdkconfig.old'.
+-- Found Git: /usr/bin/git (found version "2.39.5 (Apple Git-154)")
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /Users/xuqi/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/riscv32-esp-elf-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Users/xuqi/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/riscv32-esp-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/xuqi/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/riscv32-esp-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Building ESP-IDF components for target esp32c3
+-- Project sdkconfig file /Users/xuqi/Proj/ESP32S3/hello_world/sdkconfig
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: /Users/xuqi/.espressif/python_env/idf5.1_py3.9_env/bin/python (found version "3.9.6") found components: Interpreter
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - no
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - not found
+-- Could NOT find Threads (missing: Threads_FOUND) 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "hello_world" version: 1d909ec
+-- Adding linker script /Users/xuqi/Proj/ESP32S3/hello_world/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /Users/xuqi/esp/v5.1.6/esp-idf/components/esp_system/ld/esp32c3/sections.ld.in
+-- Adding linker script /Users/xuqi/esp/v5.1.6/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.ld
+-- Adding linker script /Users/xuqi/esp/v5.1.6/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.api.ld
+-- Adding linker script /Users/xuqi/esp/v5.1.6/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.bt_funcs.ld
+-- Adding linker script /Users/xuqi/esp/v5.1.6/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.libgcc.ld
+-- Adding linker script /Users/xuqi/esp/v5.1.6/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.newlib.ld
+-- Adding linker script /Users/xuqi/esp/v5.1.6/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.version.ld
+-- Adding linker script /Users/xuqi/esp/v5.1.6/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.eco3.ld
+-- Adding linker script /Users/xuqi/esp/v5.1.6/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.eco3_bt_funcs.ld
+-- Adding linker script /Users/xuqi/esp/v5.1.6/esp-idf/components/soc/esp32c3/ld/esp32c3.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table protobuf-c protocomm pthread riscv sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant
+-- Component paths: /Users/xuqi/esp/v5.1.6/esp-idf/components/app_trace /Users/xuqi/esp/v5.1.6/esp-idf/components/app_update /Users/xuqi/esp/v5.1.6/esp-idf/components/bootloader /Users/xuqi/esp/v5.1.6/esp-idf/components/bootloader_support /Users/xuqi/esp/v5.1.6/esp-idf/components/bt /Users/xuqi/esp/v5.1.6/esp-idf/components/cmock /Users/xuqi/esp/v5.1.6/esp-idf/components/console /Users/xuqi/esp/v5.1.6/esp-idf/components/cxx /Users/xuqi/esp/v5.1.6/esp-idf/components/driver /Users/xuqi/esp/v5.1.6/esp-idf/components/efuse /Users/xuqi/esp/v5.1.6/esp-idf/components/esp-tls /Users/xuqi/esp/v5.1.6/esp-idf/components/esp_adc /Users/xuqi/esp/v5.1.6/esp-idf/components/esp_app_format /Users/xuqi/esp/v5.1.6/esp-idf/components/esp_coex /Users/xuqi/esp/v5.1.6/esp-idf/components/esp_common /Users/xuqi/esp/v5.1.6/esp-idf/components/esp_eth /Users/xuqi/esp/v5.1.6/esp-idf/components/esp_event /Users/xuqi/esp/v5.1.6/esp-idf/components/esp_gdbstub /Users/xuqi/esp/v5.1.6/esp-idf/components/esp_hid /Users/xuqi/esp/v5.1.6/esp-idf/components/esp_http_client /Users/xuqi/esp/v5.1.6/esp-idf/components/esp_http_server /Users/xuqi/esp/v5.1.6/esp-idf/components/esp_https_ota /Users/xuqi/esp/v5.1.6/esp-idf/components/esp_https_server /Users/xuqi/esp/v5.1.6/esp-idf/components/esp_hw_support /Users/xuqi/esp/v5.1.6/esp-idf/components/esp_lcd /Users/xuqi/esp/v5.1.6/esp-idf/components/esp_local_ctrl /Users/xuqi/esp/v5.1.6/esp-idf/components/esp_mm /Users/xuqi/esp/v5.1.6/esp-idf/components/esp_netif /Users/xuqi/esp/v5.1.6/esp-idf/components/esp_netif_stack /Users/xuqi/esp/v5.1.6/esp-idf/components/esp_partition /Users/xuqi/esp/v5.1.6/esp-idf/components/esp_phy /Users/xuqi/esp/v5.1.6/esp-idf/components/esp_pm /Users/xuqi/esp/v5.1.6/esp-idf/components/esp_psram /Users/xuqi/esp/v5.1.6/esp-idf/components/esp_ringbuf /Users/xuqi/esp/v5.1.6/esp-idf/components/esp_rom /Users/xuqi/esp/v5.1.6/esp-idf/components/esp_system /Users/xuqi/esp/v5.1.6/esp-idf/components/esp_timer /Users/xuqi/esp/v5.1.6/esp-idf/components/esp_wifi /Users/xuqi/esp/v5.1.6/esp-idf/components/espcoredump /Users/xuqi/esp/v5.1.6/esp-idf/components/esptool_py /Users/xuqi/esp/v5.1.6/esp-idf/components/fatfs /Users/xuqi/esp/v5.1.6/esp-idf/components/freertos /Users/xuqi/esp/v5.1.6/esp-idf/components/hal /Users/xuqi/esp/v5.1.6/esp-idf/components/heap /Users/xuqi/esp/v5.1.6/esp-idf/components/http_parser /Users/xuqi/esp/v5.1.6/esp-idf/components/idf_test /Users/xuqi/esp/v5.1.6/esp-idf/components/ieee802154 /Users/xuqi/esp/v5.1.6/esp-idf/components/json /Users/xuqi/esp/v5.1.6/esp-idf/components/log /Users/xuqi/esp/v5.1.6/esp-idf/components/lwip /Users/xuqi/Proj/ESP32S3/hello_world/main /Users/xuqi/esp/v5.1.6/esp-idf/components/mbedtls /Users/xuqi/esp/v5.1.6/esp-idf/components/mqtt /Users/xuqi/esp/v5.1.6/esp-idf/components/newlib /Users/xuqi/esp/v5.1.6/esp-idf/components/nvs_flash /Users/xuqi/esp/v5.1.6/esp-idf/components/openthread /Users/xuqi/esp/v5.1.6/esp-idf/components/partition_table /Users/xuqi/esp/v5.1.6/esp-idf/components/protobuf-c /Users/xuqi/esp/v5.1.6/esp-idf/components/protocomm /Users/xuqi/esp/v5.1.6/esp-idf/components/pthread /Users/xuqi/esp/v5.1.6/esp-idf/components/riscv /Users/xuqi/esp/v5.1.6/esp-idf/components/sdmmc /Users/xuqi/esp/v5.1.6/esp-idf/components/soc /Users/xuqi/esp/v5.1.6/esp-idf/components/spi_flash /Users/xuqi/esp/v5.1.6/esp-idf/components/spiffs /Users/xuqi/esp/v5.1.6/esp-idf/components/tcp_transport /Users/xuqi/esp/v5.1.6/esp-idf/components/ulp /Users/xuqi/esp/v5.1.6/esp-idf/components/unity /Users/xuqi/esp/v5.1.6/esp-idf/components/usb /Users/xuqi/esp/v5.1.6/esp-idf/components/vfs /Users/xuqi/esp/v5.1.6/esp-idf/components/wear_levelling /Users/xuqi/esp/v5.1.6/esp-idf/components/wifi_provisioning /Users/xuqi/esp/v5.1.6/esp-idf/components/wpa_supplicant
+-- Configuring done (5.2s)
+-- Generating done (0.3s)
+-- Build files have been written to: /Users/xuqi/Proj/ESP32S3/hello_world/build
